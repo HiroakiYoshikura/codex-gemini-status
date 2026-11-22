@@ -22,7 +22,7 @@
   ·
   <a href="#使い方">使い方</a>
   ·
-  <a href="https://github.com/takamiya1021/codex-gemini-status/issues">不具合の報告・要望</a>
+  <a href="https://github.com/HiroakiYoshikura/codex-gemini-status/issues">不具合の報告・要望</a>
 </p>
 
 </div>
@@ -73,7 +73,7 @@ Codex CLI と Antigravity CLI は、使う方だけ入っていれば大丈夫�
 Claude Code のターミナルの入力欄で:
 
 ```
-/plugin install codex-gemini-status --marketplace takamiya1021/codex-gemini-status
+/plugin install codex-gemini-status --marketplace HiroakiYoshikura/codex-gemini-status
 ```
 
 `Add marketplace?` と聞かれたら `y`、入れる範囲（scope）は user のまま Enter で入ります。入れたセッションからすぐ動き、user に入れた場合は以後のセッションでも動きます。
@@ -84,10 +84,10 @@ Claude Code のターミナルの入力欄で:
 シェルからなら:
 
 ```bash
-claude plugin install codex-gemini-status --marketplace takamiya1021/codex-gemini-status
+claude plugin install codex-gemini-status --marketplace HiroakiYoshikura/codex-gemini-status
 ```
 
-デスクトップアプリでは `/plugin` が動かないので、入力欄の横の + → Plugins → Add marketplace に `takamiya1021/codex-gemini-status` を入れ、Add plugin で入れます。
+デスクトップアプリでは `/plugin` が動かないので、入力欄の横の + → Plugins → Add marketplace に `HiroakiYoshikura/codex-gemini-status` を入れ、Add plugin で入れます。
 
 外す時は:
 
@@ -179,7 +179,7 @@ docs/screenshot.png  # README の画面
 
 ## 不具合の報告・要望
 
-[Issues](https://github.com/takamiya1021/codex-gemini-status/issues) へどうぞ。表示がおかしい時は、`/cgstatus` の返事と、その時の `ps -eo pid=,ppid=,etimes=,args=` のうち `codex` か `agy` を含む行を添えてもらえると助かります（依頼文が入っている場合は消してください）。
+[Issues](https://github.com/HiroakiYoshikura/codex-gemini-status/issues) へどうぞ。表示がおかしい時は、`/cgstatus` の返事と、その時の `ps -eo pid=,ppid=,etimes=,args=` のうち `codex` か `agy` を含む行を添えてもらえると助かります（依頼文が入っている場合は消してください）。
 
 ## 利用条件
 

@@ -1,5 +1,5 @@
 {
   "name": "codex-gemini-status",
-  "owner": { "name": "takamiya1021" },
+  "owner": { "name": "HiroakiYoshikura" },
   "plugins": [{ "name": "codex-gemini-status", "source": "./" }]
 }
