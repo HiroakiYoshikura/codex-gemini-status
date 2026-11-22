@@ -1,0 +1,7 @@
+{
+  "name": "codex-gemini-status",
+  "version": "1.0.0",
+  "description": "Shows in the Claude Code status area whether Codex CLI (codex exec) and Antigravity CLI (agy -p) are running, with the model each one is using.",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}
